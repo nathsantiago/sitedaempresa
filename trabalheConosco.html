@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameris Educacional</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cabin&display=swap" rel="stylesheet">
+    <script src="js/formulario.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <h1>Gameris Educacional</h1>
+        </header> 
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="trabalheConosco.html">Trabalhe Conosco</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <section class="empresa1">
+                <h1>
+                    Venha trabalhar conosco!
+                </h1><br>
+                <h2>Preencha o formulário e envie seu currículo para ser informado sobre novas vagas.</h2><br><br>
+                <form>
+                    <label for="nome" class="label">Nome completo</label><br>
+                    <input type="text" class="campo-fac" id="nome" placeholder="Nome completo"><br>
+                    <label for="telefone" class="label">Telefone</label><br>
+                    <input type="tel" class="campo-fac" id="telefone" placeholder="Telefone"><br>
+                    <label for="email" class="label">Email</label><br>
+                    <input type="email" class="campo-fac" id="email" placeholder="Email"><br>
+                    <h3>Área de interesse</h3>
+                    <input list="assuntos" class="campo-fac" name="assuntos" placeholder="Assunto">
+                    <datalist id="assuntos">
+                        <option value="Desenvolvimento"></option>
+                        <option value="Administrativo"></option>
+                        <option value="Pedagógico"></option>
+                    </datalist><br><br>
+                    <h3>Descreva sua mensagem</h3>
+                    <textarea name="message" class="campo-fac" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea><br>
+                    <h3>Anexar currículo</h3>
+                    <input type="file"><br>
+                    <input type="submit" class="botao">   <section class="control_user">
+                </form>
+            </section>
+        </div>
+        <footer class="footer">
+            <p class="txt-footer">
+                Copyright © 2020 Gameris Educacional            </p>
+        </footer>
+    </div>
+</body>
+</html>        

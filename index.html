@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameris Educacional</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cabin&display=swap" rel="stylesheet">
+    <script src="js/formulario.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <h1>EduKappa</h1>
+        </header> 
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="trabalheConosco.html">Trabalhe Conosco</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <section class="empresa1">
+                <img class="banner2" src="../img/banner2.png">
+                <h1>Gameris Educacional - Aprenda jogando!</h1>
+                <h2>
+                    Nós da Gameris desenvolvemos jogos voltados para o aluno que enfrenta dificuldades com o aprendizado tradicional. Com nossa plataforma, será possível aprender de uma maneira muito mais leve e eficiente!
+                </h2>
+            </section>
+            <!--section class="empresa2">
+                <h1>De maneira didática, reunimos os conteúdos essenciais das disciplinas escolares e disponibilizamos em uma plataforma totalmente lúdica.  </h1>
+            </section>
+            <section class="empresa3">
+                <h1>A Gameris desenvolveu o projeto pelas mãos de vários especialistas afim de fornecer um produto de qualidade. Instalada em São Paulo, atendemos também aos pais dos alunos e instituições de ensino.</h1>
+            </section !-->
+            <section class="box">
+                <div class="item">
+                    <ul>
+                        <li>
+                            <img class="img1" src="img/img1.jpg">
+                            <div class="ttl">Apoio a quem mais precisa!</div>
+                            <div class="sub">Nossa plataforma gamificada é a alternativa que melhor oferece apoio e suporte nas necessidades de seus alunos.</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li>
+                            <img class="img1" src="img/img2.jpg" alt="">
+                            <div class="ttl">Interativo e lúdico!</div>
+                            <div class="sub">Uma nova maneira de absorver conteúdo, sempre motivando o aluno a alcançar novos níveis.</div>
+                        </li>
+                     </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li>
+                            <img class="img1" src="img/img3.jpg" alt="">
+                            <div class="ttl">A serviço da educação</div>
+                            <div class="sub">Procuramos promover o melhor desempenho dos alunos que demandam mais atenção</div>
+                        </li>
+                     </ul>
+                </div>
+            </section>
+            <h1>Entre em contato e conheça nossos produtos!</h1>
+            <form>
+                <label for="nome" class="label">Nome completo</label><br>
+                <input type="text" class="campo-fac" id="nome" placeholder="Nome completo" required ><br>
+                <label for="telefone" class="label">Telefone</label><br>
+                <input type="tel" class="campo-fac" id="telefone" placeholder="Telefone"><br>
+                <label for="email" class="label">Email</label><br>
+                <input type="email" class="campo-fac" id="email" placeholder="Email"><br>
+                <h3>Assunto</h3>
+                <input list="assuntos" class="campo-fac" name="assuntos" placeholder="Assunto">
+                <datalist id="assuntos">
+                    <option value="Produtos"></option>
+                    <option value="Dúvidas"></option>
+                    <option value="Valores"></option>
+                </datalist><br><br>
+                <h3>Observações</h3>
+                <textarea name="message" class="campo-fac" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea><br>
+                
+                <input type="submit" class="botao">
+            </form>
+        </div>
+        <footer class="footer">
+            <p class="txt-footer">
+                Copyright © 2020 Gameris Educacional            </p>
+        </footer>
+    </div>
+    
+</body>
+</html>

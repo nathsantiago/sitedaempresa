@@ -1,0 +1,202 @@
+  /* soft reset do css
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } */
+
+  * {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cabin', sans-serif;
+  }
+
+  a { 
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: pink;
+  }
+
+  /*#container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }*/
+
+  .header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 104, 104);
+    position: fixed;
+    top: 0;
+  }
+  
+  .header h1 {
+    text-align:center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .menu {
+    justify-content:center;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgb(255, 172, 172);
+    width: 100%;
+    position: fixed;
+    top: 70px;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .menu ul li {
+    list-style: none;
+  }
+  
+  .menu a {
+      display: block;
+      padding: 10px 60px;
+  }
+
+  nav ul > li a:hover {
+    background: #000000;
+    transition: all 1.0s;
+    text-decoration: none;
+  }
+
+  .banner1 {
+    padding-left: 60px;
+    
+  }
+
+  
+  body {
+    /*background-color: rgb(250, 243, 234);*/
+    background-image:url(https://www.designerd.com.br/wp-content/uploads/2018/07/download.png);
+    background-size: auto 100%;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  /*breakpoint - se a tela tiver pelo menos 400px vai carregar estes estilos
+  @media (max-width: 400px) {
+      .menu ul {
+        justify-content: center;
+      }
+      .menu a {
+        padding: 10px 20px;
+      }
+    #content {
+      margin: 107px 0px 0px 0px;
+    }
+  }*/
+  
+  #content {
+    width: 1100px;
+    margin: 107px 124px 0px 124px;
+    background-image: url(../img/design.png);
+    background-size: 100vw;
+  }
+
+  .empresa1 {
+    text-align: left;
+  }
+
+  h1 {
+    padding: 50px;
+    font-size: 40px;
+  }
+
+  .empresa1 h2, .empresa2 h2 {
+    font-size: 30px;
+    padding: 0px 400px 20px 50px;
+  }
+
+  .empresa3 > h1 {
+    padding-top: 75px;
+    padding-right: 400px;
+    padding-bottom: 75px;
+    font-size: 30px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 104, 104);
+}
+
+.txt-footer {
+    line-height: 60px;
+    text-align: center;
+}
+
+.campo-fac {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ffacac;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px 0px 25px 10px;
+}
+
+.botao {    
+  background: #ffacac;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 200px;
+  border-radius: 50px;
+  border: 0;
+  text-transform: uppercase;
+  margin: 20px 0px 20px 20px
+}
+
+.box {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.box .item {
+    margin: 20px 0px;
+    width: 311px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 172, 172);
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.img1 {
+  width: 200px;
+  height: 130px;
+}
+
+.ttl, .sub {
+  margin: 40px 0px 40px;
+}
+
+form {
+  margin-left: 50px;
+}
+
+.img2 {
+  width: 400px;
+  margin: 50px;
+}
+
+.banner2 {
+  width: 100%;
+}
