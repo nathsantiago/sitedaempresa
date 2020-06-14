@@ -1,9 +1,3 @@
-  /* soft reset do css
-  * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  } */
 
   * {
     font-family: 'Bree Serif', serif;
@@ -20,12 +14,6 @@
     text-decoration: underline;
     color: pink;
   }
-
-  /*#container {
-    width: 1200px;
-    height: auto;
-    margin: 0 auto;
-  }*/
 
   .header {
     width: 100%;
@@ -74,31 +62,16 @@
 
   .banner1 {
     padding-left: 60px;
-    
   }
 
   
   body {
-    /*background-color: rgb(250, 243, 234);*/
-    background-image:url(https://www.designerd.com.br/wp-content/uploads/2018/07/download.png);
+    background-image: url(../img/background.png);
     background-size: auto 100%;
     font-size: 20px;
     font-family: 'Bree Serif', serif;
     font-family: 'Cabin', sans-serif;
   }
-  
-  /*breakpoint - se a tela tiver pelo menos 400px vai carregar estes estilos
-  @media (max-width: 400px) {
-      .menu ul {
-        justify-content: center;
-      }
-      .menu a {
-        padding: 10px 20px;
-      }
-    #content {
-      margin: 107px 0px 0px 0px;
-    }
-  }*/
   
   #content {
     width: 1100px;
